@@ -66,17 +66,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_OB_30303039.img:system/etc/firmware/PR1555722-s3202_7953_OB_30303039.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_OC_30303034.img:system/etc/firmware/PR1555722-s3202_7953_OC_30303034.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_OW_30303036.img:system/etc/firmware/PR1555722-s3202_7953_OW_30303036.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TB_30303037.img:system/etc/firmware/PR1555722-s3202_7953_TB_30303037.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TC_30303034.img:system/etc/firmware/PR1555722-s3202_7953_TC_30303034.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TG_30303035.img:system/etc/firmware/PR1555722-s3202_7953_TG_30303035.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TO_30303035.img:system/etc/firmware/PR1555722-s3202_7953_TO_30303035.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TR_30303035.img:system/etc/firmware/PR1555722-s3202_7953_TR_30303035.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TW_30303037.img:system/etc/firmware/PR1555722-s3202_7953_TW_30303037.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/PR1555722-s3202_7953_TY_30303035.img:system/etc/firmware/PR1555722-s3202_7953_TY_30303035.img \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
 	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
 	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
 	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
@@ -91,7 +80,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 	$(LOCAL_PATH)/proprietary/lib/hw:system/lib/hw \
-	$(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
